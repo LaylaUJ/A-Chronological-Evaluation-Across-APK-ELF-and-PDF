@@ -1,0 +1,4 @@
+format,tcfs_method,baseline_method,metric,margin,effect_tcfs_minus_baseline,ci_lower,ci_upper,p_value,adjusted_p_value,decision,analysis_unit
+APK,tcfs,all_features,macro_f1,-0.01,-0.014749741683199,-0.0165416501440078,-0.0128951938669618,1.0,1.0,Not non-inferior,paired sample; 2000 class-stratified bootstrap resamples; seed 42
+ELF,tcfs,all_features,macro_f1,-0.01,-0.0059987162533257,-0.0105080076929575,-0.0016625480136625,0.0469765117441279,0.0469765117441279,Not non-inferior,paired sample; 2000 class-stratified bootstrap resamples; seed 42
+PDF,tcfs,all_features,macro_f1,-0.01,0.001341205603023,-0.0010813929148366,0.003842422220675,0.0004997501249375,0.0004997501249375,Non-inferior,paired sample; 2000 class-stratified bootstrap resamples; seed 42

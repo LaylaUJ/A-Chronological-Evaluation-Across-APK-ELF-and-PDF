@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-10-15T04:43:30.285535+00:00",
+  "project_root": "C:\\Users\\LENOVO\\OneDrive - zuj.edu.jo\\Documents\\ChatGPT\\malware detection\\tcfs-malware",
+  "protocol_version": "tcfs-temporal-v1.0",
+  "no_fabricated_values": true,
+  "csv_rows": {
+    "metrics.csv": 42,
+    "budget_metrics.csv": 93,
+    "jaccard_stability.csv": 126,
+    "spearman_stability.csv": 126,
+    "noninferiority.csv": 3,
+    "secondary_comparisons.csv": 24,
+    "ablation_sensitivity.csv": 24,
+    "selected_features.csv": 58464,
+    "sample_counts.csv": 384
+  }
+}

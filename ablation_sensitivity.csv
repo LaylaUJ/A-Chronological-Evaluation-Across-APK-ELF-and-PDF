@@ -1,0 +1,25 @@
+format,ablation,reference_method,evaluated_method,feature_count,macro_f1,pr_auc,mcc,effect_on_macro_f1,seed_or_analysis_unit
+APK,ablation:full_tcfs,full_tcfs,full_tcfs,70,0.9038536708704269,0.967505026543316,0.8077166636555272,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+APK,ablation:mean_rank_only,full_tcfs,mean_rank_only,70,0.8983333246846057,0.9643655089661826,0.7966668022106828,-0.005520346185821201,validation weeks 41-52; mean probability ensemble:17;42;73
+APK,ablation:without_frequency,full_tcfs,without_frequency,70,0.8970623548418364,0.9639903253731811,0.7941272396901391,-0.0067913160285905105,validation weeks 41-52; mean probability ensemble:17;42;73
+APK,ablation:without_stability_penalty,full_tcfs,without_stability_penalty,70,0.9026874736022877,0.9674700447557567,0.8053754369442575,-0.0011661972681391575,validation weeks 41-52; mean probability ensemble:17;42;73
+APK,sensitivity:rho=0,full_tcfs,rho=0,70,0.9026874736022877,0.9674700447557567,0.8053754369442575,-0.0011661972681391575,validation weeks 41-52; mean probability ensemble:17;42;73
+APK,sensitivity:rho=0.25,full_tcfs,rho=0.25,70,0.9038536708704269,0.967505026543316,0.8077166636555272,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+APK,sensitivity:rho=0.5,full_tcfs,rho=0.5,70,0.9038536708704269,0.967505026543316,0.8077166636555272,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+APK,sensitivity:rho=1,full_tcfs,rho=1,70,0.9026035680421558,0.9673589824089635,0.8052182315672414,-0.0012501028282710935,validation weeks 41-52; mean probability ensemble:17;42;73
+ELF,ablation:full_tcfs,full_tcfs,full_tcfs,70,0.9588308071459163,0.9908543794381591,0.9177793054946144,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+ELF,ablation:mean_rank_only,full_tcfs,mean_rank_only,70,0.9529924579010233,0.9903606556352536,0.9062908653440089,-0.005838349244893015,validation weeks 41-52; mean probability ensemble:17;42;73
+ELF,ablation:without_frequency,full_tcfs,without_frequency,70,0.9528259623899568,0.9902947848286454,0.9059498202351504,-0.006004844755959526,validation weeks 41-52; mean probability ensemble:17;42;73
+ELF,ablation:without_stability_penalty,full_tcfs,without_stability_penalty,70,0.957662978641695,0.9903888023553149,0.9154928464280402,-0.0011678285042212577,validation weeks 41-52; mean probability ensemble:17;42;73
+ELF,sensitivity:rho=0,full_tcfs,rho=0,70,0.957662978641695,0.9903888023553149,0.9154928464280402,-0.0011678285042212577,validation weeks 41-52; mean probability ensemble:17;42;73
+ELF,sensitivity:rho=0.25,full_tcfs,rho=0.25,70,0.9588308071459163,0.9908543794381591,0.9177793054946144,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+ELF,sensitivity:rho=0.5,full_tcfs,rho=0.5,70,0.9588308071459163,0.9908543794381591,0.9177793054946144,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+ELF,sensitivity:rho=1,full_tcfs,rho=1,70,0.9588308071459163,0.9908543794381591,0.9177793054946144,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+PDF,ablation:full_tcfs,full_tcfs,full_tcfs,35,0.9810815958618422,0.9970386054032419,0.9623434466826056,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+PDF,ablation:mean_rank_only,full_tcfs,mean_rank_only,35,0.9757466515220757,0.9965122307248153,0.951762841808303,-0.005334944339766445,validation weeks 41-52; mean probability ensemble:17;42;73
+PDF,ablation:without_frequency,full_tcfs,without_frequency,35,0.9757466515220757,0.9965122307248153,0.951762841808303,-0.005334944339766445,validation weeks 41-52; mean probability ensemble:17;42;73
+PDF,ablation:without_stability_penalty,full_tcfs,without_stability_penalty,35,0.9810815958618422,0.9970386054032419,0.9623434466826056,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+PDF,sensitivity:rho=0,full_tcfs,rho=0,35,0.9810815958618422,0.9970386054032419,0.9623434466826056,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+PDF,sensitivity:rho=0.25,full_tcfs,rho=0.25,35,0.9810815958618422,0.9970386054032419,0.9623434466826056,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+PDF,sensitivity:rho=0.5,full_tcfs,rho=0.5,35,0.9810815958618422,0.9970386054032419,0.9623434466826056,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
+PDF,sensitivity:rho=1,full_tcfs,rho=1,35,0.9810815958618422,0.9970386054032419,0.9623434466826056,0.0,validation weeks 41-52; mean probability ensemble:17;42;73
