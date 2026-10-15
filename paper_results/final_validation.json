@@ -1,0 +1,18 @@
+{
+  "validated_at_utc": "2026-10-15T04:50:26.807021+00:00",
+  "csv_rows": {
+    "metrics.csv": 42,
+    "budget_metrics.csv": 93,
+    "jaccard_stability.csv": 126,
+    "spearman_stability.csv": 126,
+    "noninferiority.csv": 3,
+    "secondary_comparisons.csv": 24,
+    "ablation_sensitivity.csv": 24,
+    "selected_features.csv": 58464,
+    "sample_counts.csv": 384
+  },
+  "figures": 9,
+  "workbooks": 4,
+  "no_fabricated_values": true,
+  "status": "PASS"
+}

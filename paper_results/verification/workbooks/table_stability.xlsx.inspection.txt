@@ -1,0 +1,10 @@
+{"kind":"workbook","id":"wb/eq3u07","sheets":3}
+{"kind":"sheet","id":"ws/5ud2ui","name":"Summary","index":0,"range":"A1:M25","address":"A1:M25"}
+{"kind":"sheet","id":"ws/ibtjzz","name":"Jaccard Detail","index":1,"range":"A1:H130","address":"A1:H130"}
+{"kind":"sheet","id":"ws/32mbp8","name":"Spearman Detail","index":2,"range":"A1:G130","address":"A1:G130"}
+
+POST-EXPORT REOPEN
+{"kind":"workbook","id":"wb/glxzzw","sheets":3}
+{"kind":"sheet","id":"ws/e4ddkw","name":"Summary","index":0,"range":"A1:M25","address":"A1:M25"}
+{"kind":"sheet","id":"ws/q6sqfa","name":"Jaccard Detail","index":1,"range":"A1:H130","address":"A1:H130"}
+{"kind":"sheet","id":"ws/tez70a","name":"Spearman Detail","index":2,"range":"A1:G130","address":"A1:G130"}

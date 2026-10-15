@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and editors
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.swp
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Research data and generated artifacts
+data/raw/*
+data/interim/*
+data/processed/*
+outputs/figures/*
+outputs/models/*
+outputs/predictions/*
+outputs/reports/*
+
+# Keep the directory structure in Git
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/models/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/reports/.gitkeep
+
+# OS metadata
+.DS_Store
+Thumbs.db
+

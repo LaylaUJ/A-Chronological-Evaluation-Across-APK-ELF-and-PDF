@@ -1,0 +1,19 @@
+model_selection:
+  feature_budgets: [0.05, 0.10, 0.20, 0.40, 0.60]
+  rho_values: [0.0, 0.25, 0.50, 1.0]
+  thresholds: [0.30, 0.40, 0.50, 0.60, 0.70]
+  seeds: [17, 42, 73]
+
+classifiers:
+  lightgbm:
+    role: primary
+    parameter_grid:
+      - {n_estimators: 200, learning_rate: 0.05, num_leaves: 15}
+      - {n_estimators: 300, learning_rate: 0.05, num_leaves: 31}
+      - {n_estimators: 200, learning_rate: 0.10, num_leaves: 31}
+  logistic_regression:
+    role: secondary
+    parameter_grid:
+      - {C: 0.1}
+      - {C: 1.0}
+      - {C: 10.0}

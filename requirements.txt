@@ -1,0 +1,17 @@
+# Direct dependencies pinned for repeatable environments.
+# Install the local package and these versions with:
+#   python -m pip install -e ".[dev]" -r requirements.txt
+joblib==1.5.2
+lightgbm==4.6.0
+matplotlib==3.10.7
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==22.0.0
+PyYAML==6.0.3
+scikit-learn==1.7.2
+scipy==1.16.3
+seaborn==0.13.2
+pytest==9.0.1
+ruff==0.14.5
+thrember @ git+https://github.com/FutureComputing4AI/EMBER2024.git@main
+

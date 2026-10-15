@@ -1,0 +1,8 @@
+{
+  "features": {
+    "GeneralFileInfo": {},
+    "ByteHistogram": {},
+    "ByteEntropyHistogram": {},
+    "StringExtractor": {}
+  }
+}
